@@ -1,0 +1,764 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE_ENTITY", 
+                                "bullet", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "arg_type": 100062, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PROJECTILE", 
+                                        "\u5f39\u836f\u7c7b\u578b", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "\u8d77\u59cb\u4f4d\u7f6e", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "\u6240\u5c5e\u5355\u4f4d", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "\u9ad8\u5ea6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "CREATE_PROJECTILE_NEW"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_PROJECTILE_SCALE_XYZ", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE_ENTITY", 
+                                "bullet", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u7f29\u653e", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u7f29\u653e", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u7f29\u653e", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_STRAIGHT_MOVER", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PROJECTILE_ENTITY", 
+                                "bullet", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ANGLE", 
+                                "\u5f39\u9053\u65b9\u5411", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u6700\u5927\u8ddd\u79bb", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u901f\u5ea6", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000019, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000003, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000010, 
+                            "enable": true, 
+                            "fake_op": []
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000029, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000035, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000025, 
+                            "enable": true, 
+                            "fake_op": []
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000048, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000006, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000044, 
+                            "enable": true, 
+                            "fake_op": []
+                        }, 
+                        {
+                            "action_type": "APPLY_DAMAGE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UNIT_ENTITY", 
+                                                "\u6240\u5c5e\u5355\u4f4d", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ABILITY", 
+                                                "\u4f24\u5bb3\u5f52\u5c5e\u6280\u80fd", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "MOVER_COLLIDE_UNIT"
+                                }, 
+                                {
+                                    "arg_type": 100064, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "FLOAT", 
+                                                "\u4f24\u5bb3", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000005, 
+                            "enable": true, 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000007, 
+            "enable": true, 
+            "fake_op": [
+                8, 
+                9
+            ], 
+            "local_var": {
+                "__tuple__": true, 
+                "items": [
+                    {}, 
+                    {}
+                ]
+            }, 
+            "op_arg": [
+                null, 
+                null, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u9ad8\u5ea6", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                null, 
+                null, 
+                {
+                    "arg_type": 100176, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "\u78b0\u649e\u8303\u56f4", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                null, 
+                null, 
+                null
+            ], 
+            "op_arg_enable": [
+                false, 
+                false, 
+                true, 
+                false, 
+                false, 
+                true, 
+                true, 
+                false, 
+                false, 
+                true, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u751f\u6210\u6cbf\u76f4\u7ebf\u53d1\u5c04\u7684\u5b50\u5f39\uff0c\u5f39\u836f\u7c7b\u578b{\u5f39\u836f\u7c7b\u578b}\uff0c\u8d77\u59cb\u4f4d\u7f6e{\u8d77\u59cb\u4f4d\u7f6e}\uff0c\u901f\u5ea6{\u901f\u5ea6}\uff0c\u5f39\u9053\u65b9\u5411{\u5f39\u9053\u65b9\u5411}\uff0c\u7f29\u653e{\u7f29\u653e}\uff0c\u78b0\u649e\u8303\u56f4{\u78b0\u649e\u8303\u56f4}\uff0c\u9ad8\u5ea6{\u9ad8\u5ea6}\uff0c\u6700\u5927\u8ddd\u79bb{\u6700\u5927\u8ddd\u79bb}\uff0c\u4f24\u5bb3{\u4f24\u5bb3}\uff0c\u6240\u5c5e\u5355\u4f4d{\u6240\u5c5e\u5355\u4f4d}\uff0c\u4f24\u5bb3\u6240\u5c5e\u6280\u80fd{\u4f24\u5bb3\u5f52\u5c5e\u6280\u80fd}", 
+    "func_id": "089ea2306e5a11eea52630d042e90e85", 
+    "func_name": "\u6280\u80fd\u6a21\u677f_\u751f\u6210\u6cbf\u76f4\u7ebf\u53d1\u5c04\u7684\u5b50\u5f39", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f39\u836f\u7c7b\u578b", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u8d77\u59cb\u4f4d\u7f6e", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6240\u5c5e\u5355\u4f4d", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u9ad8\u5ea6", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u78b0\u649e\u8303\u56f4", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u4f24\u5bb3", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6700\u5927\u8ddd\u79bb", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u901f\u5ea6", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f39\u9053\u65b9\u5411", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7f29\u653e", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u4f24\u5bb3\u5f52\u5c5e\u6280\u80fd", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "kq-XAHSkEe6xxzDQQukOhc", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 2075914251, 
+    "trigger_name": "\u6280\u80fd\u6a21\u677f_\u751f\u6210\u6cbf\u76f4\u7ebf\u53d1\u5c04\u7684\u5b50\u5f39", 
+    "valid": true
+}

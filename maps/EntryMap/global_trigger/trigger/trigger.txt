@@ -1,0 +1,87 @@
+{
+    "dir": [
+        {
+            "children": [
+                "+ZProXSpEe6lYzDQQukOhV"
+            ], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }, 
+        {
+            "children": [
+                609304604, 
+                875524137, 
+                "3vsm0XixEe69azDQQukOhd"
+            ], 
+            "key": "+ZProXSpEe6lYzDQQukOhV", 
+            "name": "\u5e78\u5b58\u8005", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": null, 
+            "key": 609304604, 
+            "name": "\u5e78\u5b58\u8005\u6a21\u677f\u521d\u59cb\u5316", 
+            "parent": "+ZProXSpEe6lYzDQQukOhV", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 875524137, 
+            "name": "\u81ea\u52a8\u5347\u7ea7", 
+            "parent": "+ZProXSpEe6lYzDQQukOhV", 
+            "type": "trigger"
+        }, 
+        {
+            "children": [
+                2102202408, 
+                "jT3nwIUmEe6nTzDQQukOhX"
+            ], 
+            "key": "3vsm0XixEe69azDQQukOhd", 
+            "name": "UI", 
+            "parent": "+ZProXSpEe6lYzDQQukOhV", 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": null, 
+            "key": 2102202408, 
+            "name": "\u5347\u7ea7\u91d1\u624b\u6307", 
+            "parent": "3vsm0XixEe69azDQQukOhd", 
+            "type": "trigger"
+        }, 
+        {
+            "children": [
+                1015488556, 
+                1620099117, 
+                1854984238
+            ], 
+            "key": "jT3nwIUmEe6nTzDQQukOhX", 
+            "name": "\u624b\u52a8\u5347\u7ea7", 
+            "parent": "3vsm0XixEe69azDQQukOhd", 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": null, 
+            "key": 1015488556, 
+            "name": "choice0", 
+            "parent": "jT3nwIUmEe6nTzDQQukOhX", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1620099117, 
+            "name": "choice1", 
+            "parent": "jT3nwIUmEe6nTzDQQukOhX", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1854984238, 
+            "name": "choice2", 
+            "parent": "jT3nwIUmEe6nTzDQQukOhX", 
+            "type": "trigger"
+        }
+    ]
+}
